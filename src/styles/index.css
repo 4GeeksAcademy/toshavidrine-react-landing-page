@@ -1,12 +1,32 @@
+/* styles.css */
+nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  h4{
+   color: white;
+  }
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+nav.list{
+  display: flex;
+  align-items:end;
+}
+h5 {
+  text: size 10px;
+}
