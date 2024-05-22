@@ -30,3 +30,10 @@ nav.list{
 h5 {
   text: size 10px;
 }
+.jumbotron {
+  background-color: gray;
+}
+button {
+  display: flex;
+  justify-content: flex-start;
+}
